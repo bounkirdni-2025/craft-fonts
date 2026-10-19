@@ -227,6 +227,13 @@ fn lao_fonts_cover_lao_text() {
             "່້໊໋໌ໍ",
             "໐໑໒໓໔໕໖໗໘໙",
             "ຯ",
+fn georgian_fonts_cover_georgian_text() {
+    covers(
+        "Geor",
+        concat!(
+            "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
+            "ᲐᲑᲒᲓᲔᲕᲖᲗᲘᲙᲚᲛᲜᲝᲞᲟᲠᲡᲢᲣᲤᲥᲦᲧᲨᲩᲪᲫᲬᲭᲮᲯᲰ",
+            "„“–№",
         ),
     );
 }
