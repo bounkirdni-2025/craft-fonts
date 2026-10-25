@@ -242,14 +242,3 @@ fn georgian_fonts_cover_georgian_text() {
         ),
     );
 }
-
-#[test]
-fn georgian_fonts_cover_georgian_text() {
-    covers(
-        "Geor",
-        concat!(
-            "აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ",
-            "ჱჲჳჴჵჶჷჸჹჺ",
-        ),
-    );
-}
